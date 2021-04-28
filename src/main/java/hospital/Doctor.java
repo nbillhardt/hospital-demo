@@ -4,6 +4,8 @@ public class Doctor extends HospitalEmployee implements MedicalDuties {
 
     private String specialty;
 
+
+
     public Doctor(String employeeNumber, String name, String specialty) {
         super(employeeNumber, name);
         this.specialty = specialty;
@@ -23,4 +25,6 @@ public class Doctor extends HospitalEmployee implements MedicalDuties {
     public int calculatePay() {
         return 90000;
     }
+
+
 }
